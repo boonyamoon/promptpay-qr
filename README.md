@@ -8,6 +8,11 @@ let code = "00020101021129370016A000000677010111" + accountId + "5303764" + amou
 let chsum = String(format: "%04X", crc16(code)!).uppercased()
 ```
 
+## Sample Generated PromptPay QR Code
+<p align="center">
+  <img src="screenshot.png" width="300" />
+</p>
+
 ## References
 - https://www.blognone.com/node/95133
 - https://github.com/diewland/promptpay-qr-plus
