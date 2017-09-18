@@ -9,7 +9,7 @@ let chsum = String(format: "%04X", crc16(code)!).uppercased()
 ```
 
 ## Sample Generated PromptPay QR Code
-<p align="center">
+<p align="left">
   <img src="screenshot.png" width="300" />
 </p>
 
