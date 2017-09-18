@@ -1,5 +1,5 @@
 # swift promptpay-qr
-Swift library to generate QR Code payload for PromptPay.
+Mobile app to generate QR Code payload for PromptPay.
 
 ## Example
 ```
