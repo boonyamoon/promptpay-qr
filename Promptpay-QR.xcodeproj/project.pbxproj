@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB21A0F31F70066F00F217D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21A0F21F70066F00F217D4 /* AppDelegate.swift */; };
+		DB21A0F51F70066F00F217D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21A0F41F70066F00F217D4 /* ViewController.swift */; };
+		DB21A0F81F70066F00F217D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB21A0F61F70066F00F217D4 /* Main.storyboard */; };
+		DB21A0FA1F70066F00F217D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB21A0F91F70066F00F217D4 /* Assets.xcassets */; };
+		DB21A0FD1F70066F00F217D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB21A0FB1F70066F00F217D4 /* LaunchScreen.storyboard */; };
+		DB21A1081F70066F00F217D4 /* Promptpay_QRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21A1071F70066F00F217D4 /* Promptpay_QRTests.swift */; };
+		DB21A1131F70066F00F217D4 /* Promptpay_QRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB21A1121F70066F00F217D4 /* Promptpay_QRUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB21A1041F70066F00F217D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB21A0E71F70066F00F217D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB21A0EE1F70066F00F217D4;
+			remoteInfo = "Promptpay-QR";
+		};
+		DB21A10F1F70066F00F217D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB21A0E71F70066F00F217D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB21A0EE1F70066F00F217D4;
+			remoteInfo = "Promptpay-QR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB21A0EF1F70066F00F217D4 /* Promptpay-QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Promptpay-QR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB21A0F21F70066F00F217D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB21A0F41F70066F00F217D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB21A0F71F70066F00F217D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB21A0F91F70066F00F217D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB21A0FC1F70066F00F217D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB21A0FE1F70066F00F217D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB21A1031F70066F00F217D4 /* Promptpay-QRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promptpay-QRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB21A1071F70066F00F217D4 /* Promptpay_QRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promptpay_QRTests.swift; sourceTree = "<group>"; };
+		DB21A1091F70066F00F217D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB21A10E1F70066F00F217D4 /* Promptpay-QRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promptpay-QRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB21A1121F70066F00F217D4 /* Promptpay_QRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promptpay_QRUITests.swift; sourceTree = "<group>"; };
+		DB21A1141F70066F00F217D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB21A0EC1F70066F00F217D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB21A1001F70066F00F217D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB21A10B1F70066F00F217D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB21A0E61F70066F00F217D4 = {
+			isa = PBXGroup;
+			children = (
+				DB21A0F11F70066F00F217D4 /* Promptpay-QR */,
+				DB21A1061F70066F00F217D4 /* Promptpay-QRTests */,
+				DB21A1111F70066F00F217D4 /* Promptpay-QRUITests */,
+				DB21A0F01F70066F00F217D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB21A0F01F70066F00F217D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB21A0EF1F70066F00F217D4 /* Promptpay-QR.app */,
+				DB21A1031F70066F00F217D4 /* Promptpay-QRTests.xctest */,
+				DB21A10E1F70066F00F217D4 /* Promptpay-QRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB21A0F11F70066F00F217D4 /* Promptpay-QR */ = {
+			isa = PBXGroup;
+			children = (
+				DB21A0F21F70066F00F217D4 /* AppDelegate.swift */,
+				DB21A0F41F70066F00F217D4 /* ViewController.swift */,
+				DB21A0F61F70066F00F217D4 /* Main.storyboard */,
+				DB21A0F91F70066F00F217D4 /* Assets.xcassets */,
+				DB21A0FB1F70066F00F217D4 /* LaunchScreen.storyboard */,
+				DB21A0FE1F70066F00F217D4 /* Info.plist */,
+			);
+			path = "Promptpay-QR";
+			sourceTree = "<group>";
+		};
+		DB21A1061F70066F00F217D4 /* Promptpay-QRTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB21A1071F70066F00F217D4 /* Promptpay_QRTests.swift */,
+				DB21A1091F70066F00F217D4 /* Info.plist */,
+			);
+			path = "Promptpay-QRTests";
+			sourceTree = "<group>";
+		};
+		DB21A1111F70066F00F217D4 /* Promptpay-QRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB21A1121F70066F00F217D4 /* Promptpay_QRUITests.swift */,
+				DB21A1141F70066F00F217D4 /* Info.plist */,
+			);
+			path = "Promptpay-QRUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB21A0EE1F70066F00F217D4 /* Promptpay-QR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB21A1171F70066F00F217D4 /* Build configuration list for PBXNativeTarget "Promptpay-QR" */;
+			buildPhases = (
+				DB21A0EB1F70066F00F217D4 /* Sources */,
+				DB21A0EC1F70066F00F217D4 /* Frameworks */,
+				DB21A0ED1F70066F00F217D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Promptpay-QR";
+			productName = "Promptpay-QR";
+			productReference = DB21A0EF1F70066F00F217D4 /* Promptpay-QR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB21A1021F70066F00F217D4 /* Promptpay-QRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB21A11A1F70066F00F217D4 /* Build configuration list for PBXNativeTarget "Promptpay-QRTests" */;
+			buildPhases = (
+				DB21A0FF1F70066F00F217D4 /* Sources */,
+				DB21A1001F70066F00F217D4 /* Frameworks */,
+				DB21A1011F70066F00F217D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB21A1051F70066F00F217D4 /* PBXTargetDependency */,
+			);
+			name = "Promptpay-QRTests";
+			productName = "Promptpay-QRTests";
+			productReference = DB21A1031F70066F00F217D4 /* Promptpay-QRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB21A10D1F70066F00F217D4 /* Promptpay-QRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB21A11D1F70066F00F217D4 /* Build configuration list for PBXNativeTarget "Promptpay-QRUITests" */;
+			buildPhases = (
+				DB21A10A1F70066F00F217D4 /* Sources */,
+				DB21A10B1F70066F00F217D4 /* Frameworks */,
+				DB21A10C1F70066F00F217D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB21A1101F70066F00F217D4 /* PBXTargetDependency */,
+			);
+			name = "Promptpay-QRUITests";
+			productName = "Promptpay-QRUITests";
+			productReference = DB21A10E1F70066F00F217D4 /* Promptpay-QRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB21A0E71F70066F00F217D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Issara Boonyamoon";
+				TargetAttributes = {
+					DB21A0EE1F70066F00F217D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4L6788782V;
+						ProvisioningStyle = Automatic;
+					};
+					DB21A1021F70066F00F217D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4L6788782V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB21A0EE1F70066F00F217D4;
+					};
+					DB21A10D1F70066F00F217D4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4L6788782V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB21A0EE1F70066F00F217D4;
+					};
+				};
+			};
+			buildConfigurationList = DB21A0EA1F70066F00F217D4 /* Build configuration list for PBXProject "Promptpay-QR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB21A0E61F70066F00F217D4;
+			productRefGroup = DB21A0F01F70066F00F217D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB21A0EE1F70066F00F217D4 /* Promptpay-QR */,
+				DB21A1021F70066F00F217D4 /* Promptpay-QRTests */,
+				DB21A10D1F70066F00F217D4 /* Promptpay-QRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB21A0ED1F70066F00F217D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB21A0FD1F70066F00F217D4 /* LaunchScreen.storyboard in Resources */,
+				DB21A0FA1F70066F00F217D4 /* Assets.xcassets in Resources */,
+				DB21A0F81F70066F00F217D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB21A1011F70066F00F217D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB21A10C1F70066F00F217D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB21A0EB1F70066F00F217D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB21A0F51F70066F00F217D4 /* ViewController.swift in Sources */,
+				DB21A0F31F70066F00F217D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB21A0FF1F70066F00F217D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB21A1081F70066F00F217D4 /* Promptpay_QRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB21A10A1F70066F00F217D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB21A1131F70066F00F217D4 /* Promptpay_QRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB21A1051F70066F00F217D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB21A0EE1F70066F00F217D4 /* Promptpay-QR */;
+			targetProxy = DB21A1041F70066F00F217D4 /* PBXContainerItemProxy */;
+		};
+		DB21A1101F70066F00F217D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB21A0EE1F70066F00F217D4 /* Promptpay-QR */;
+			targetProxy = DB21A10F1F70066F00F217D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB21A0F61F70066F00F217D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB21A0F71F70066F00F217D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB21A0FB1F70066F00F217D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB21A0FC1F70066F00F217D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB21A1151F70066F00F217D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB21A1161F70066F00F217D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB21A1181F70066F00F217D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4L6788782V;
+				INFOPLIST_FILE = "Promptpay-QR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.issara.Promptpay-QR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB21A1191F70066F00F217D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4L6788782V;
+				INFOPLIST_FILE = "Promptpay-QR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.issara.Promptpay-QR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DB21A11B1F70066F00F217D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4L6788782V;
+				INFOPLIST_FILE = "Promptpay-QRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.issara.Promptpay-QRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Promptpay-QR.app/Promptpay-QR";
+			};
+			name = Debug;
+		};
+		DB21A11C1F70066F00F217D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4L6788782V;
+				INFOPLIST_FILE = "Promptpay-QRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.issara.Promptpay-QRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Promptpay-QR.app/Promptpay-QR";
+			};
+			name = Release;
+		};
+		DB21A11E1F70066F00F217D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4L6788782V;
+				INFOPLIST_FILE = "Promptpay-QRUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.issara.Promptpay-QRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Promptpay-QR";
+			};
+			name = Debug;
+		};
+		DB21A11F1F70066F00F217D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4L6788782V;
+				INFOPLIST_FILE = "Promptpay-QRUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.issara.Promptpay-QRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Promptpay-QR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB21A0EA1F70066F00F217D4 /* Build configuration list for PBXProject "Promptpay-QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB21A1151F70066F00F217D4 /* Debug */,
+				DB21A1161F70066F00F217D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB21A1171F70066F00F217D4 /* Build configuration list for PBXNativeTarget "Promptpay-QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB21A1181F70066F00F217D4 /* Debug */,
+				DB21A1191F70066F00F217D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB21A11A1F70066F00F217D4 /* Build configuration list for PBXNativeTarget "Promptpay-QRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB21A11B1F70066F00F217D4 /* Debug */,
+				DB21A11C1F70066F00F217D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB21A11D1F70066F00F217D4 /* Build configuration list for PBXNativeTarget "Promptpay-QRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB21A11E1F70066F00F217D4 /* Debug */,
+				DB21A11F1F70066F00F217D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB21A0E71F70066F00F217D4 /* Project object */;
+}
