@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Promptpay_QR" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,59 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1.00" borderStyle="roundedRect" placeholder="amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uNN-2d-0y3">
+                                <rect key="frame" x="75" y="103" width="225" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="textFieldDidEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="Mra-nd-v7u"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="95q-BL-djR"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0000000000" borderStyle="roundedRect" placeholder="ID/Tel no" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Paj-nj-gdo">
+                                <rect key="frame" x="75" y="59" width="225" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="AGB-6E-f05"/>
+                                    <constraint firstAttribute="width" constant="225" id="eMY-JP-Ldf"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <connections>
+                                    <action selector="textFieldDidEditingChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="gU8-N9-azd"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="jdM-ng-oie"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tJd-Td-t3n">
+                                <rect key="frame" x="37" y="183" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="7Q3-jI-6bC"/>
+                                    <constraint firstAttribute="width" constant="300" id="NI2-a5-VLN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uNN-2d-0y3" firstAttribute="top" secondItem="Paj-nj-gdo" secondAttribute="bottom" constant="14" id="JJv-nE-HPy"/>
+                            <constraint firstItem="Paj-nj-gdo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="Jzo-0u-93Z"/>
+                            <constraint firstItem="tJd-Td-t3n" firstAttribute="top" secondItem="uNN-2d-0y3" secondAttribute="bottom" constant="50" id="Kzd-RD-NZm"/>
+                            <constraint firstItem="Paj-nj-gdo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tcc-9w-8hr"/>
+                            <constraint firstItem="uNN-2d-0y3" firstAttribute="leading" secondItem="Paj-nj-gdo" secondAttribute="leading" id="jHy-zK-Uik"/>
+                            <constraint firstItem="tJd-Td-t3n" firstAttribute="centerX" secondItem="uNN-2d-0y3" secondAttribute="centerX" id="xgb-Tk-02N"/>
+                            <constraint firstItem="uNN-2d-0y3" firstAttribute="trailing" secondItem="Paj-nj-gdo" secondAttribute="trailing" id="zpL-3C-SFM"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="QRCodeImageView" destination="tJd-Td-t3n" id="v1U-8S-Ov4"/>
+                        <outlet property="idTextField" destination="Paj-nj-gdo" id="7lG-Ug-f6X"/>
+                        <outlet property="moneyTextField" destination="uNN-2d-0y3" id="AeE-nq-fSt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
         </scene>
     </scenes>
 </document>
