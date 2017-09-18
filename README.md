@@ -1,1 +1,2 @@
-# promptpay-qr
+## License
+The MIT License (MIT)
